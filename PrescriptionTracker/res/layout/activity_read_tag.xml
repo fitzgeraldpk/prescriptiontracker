@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="6"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:rowCount="25" >
+
+    <Space />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:gravity="center"
+        android:hint="@string/titleText"
+        android:textSize="16sp" />
+
+    <Space
+        android:layout_width="194dp"
+        android:layout_height="100dp"
+        android:layout_column="4"
+        android:layout_row="4" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:layout_row="17" />
+
+    <Space />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:layout_row="21" />
+    <Space />
+
+    <EditText
+        android:id="@+id/PrescriptionId"
+        android:layout_width="5dp"
+        android:layout_height="6dp"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_row="4"
+        android:ems="10"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/writePrescriptionButton"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="24"
+        android:gravity="center"
+        android:text="@string/readPrescription" />
+
+    <Button
+        android:id="@+id/btnReadTag"
+        android:layout_width="150dp"
+        android:layout_column="0"
+        android:layout_gravity="right|top"
+        android:layout_row="24"
+        android:text="@string/getPrescriptionDetails" />
+
+    <Button
+        android:id="@+id/btnSignout"
+        android:layout_width="match_parent"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_row="4"
+        android:text="@string/Signout" />
+
+</GridLayout>

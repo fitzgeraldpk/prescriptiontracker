@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+     <TextView
+        android:id="@+id/PrescriptionId"
+        android:layout_width="1dp"
+         android:layout_height="1dp"
+        android:layout_gravity="right|top"
+        android:ems="10"
+        android:textColor="#55BBEE" />
+
+    <TextView
+        android:id="@+id/PrescriptionEditText"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/PrscriptionName"
+        android:textColor="#55BBEE" />
+    
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/PrscriptionName" />
+
+    <TextView
+        android:id="@+id/PatientEmailText"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/PerDayText"
+        android:ems="10"
+        android:hint="@string/patientEmail"
+        android:textColor="#55BBEE" />
+    
+    
+    
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/PatientEmailText"
+        android:layout_alignBottom="@+id/PatientEmailText"
+        android:layout_alignParentLeft="true"
+        android:text="@string/patientEmail" />
+
+    <TextView
+        android:id="@+id/PerDayText"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/PatientNameText"
+        android:ems="10"
+        android:hint="@string/perDay"
+        android:textColor="#55BBEE" />
+    
+      <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/PerDayText"
+        android:layout_alignBottom="@+id/PerDayText"
+        android:layout_alignParentLeft="true"
+        android:text="@string/perDay" />
+
+    <TextView
+        android:id="@+id/PatientNameText"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/PrescriptionEditText"
+        android:ems="10"
+        android:hint="@string/patientName"
+        android:textColor="#55BBEE" />
+    
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/PrescriptionEditText"
+        android:text="@string/patientName" />
+
+    <TextView
+        android:id="@+id/btnPickFromDate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/DoctorNameText"
+        android:text="@string/pick_fromDate"
+        android:textColor="#55BBEE" />
+
+    <TextView
+        android:id="@+id/DoctorNameText"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/PatientEmailText"
+        android:ems="10"
+        android:hint="@string/doctorName"
+        android:textColor="#55BBEE" />
+    
+    
+     <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/DoctorNameText"
+        android:layout_alignBottom="@+id/DoctorNameText"
+        android:layout_alignParentLeft="true"
+        android:text="@string/doctorName" />
+     
+      <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnPickFromDate"
+        android:layout_alignBottom="@+id/btnPickFromDate"
+        android:layout_alignParentLeft="true"
+        android:text="@string/doctorName" />
+    
+
+    <TextView
+        android:id="@+id/btnPickToDate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnPickFromDate"
+        android:layout_marginTop="28dp"
+        android:text="@string/pick_toDate"
+        android:textColor="#55BBEE" />
+
+     <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnPickToDate"
+        android:layout_alignBottom="@+id/btnPickToDate"
+        android:layout_alignParentLeft="true"
+        android:text="@string/pick_toDate" />
+
+</RelativeLayout>

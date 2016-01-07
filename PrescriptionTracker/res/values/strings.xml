@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">NFC Prescription</string>
+    <string name="app_theme">Theme.Holo</string>
+    <string name="action_settings">Revoke Google Plus Access</string>
+    <string name="action_sign_out">Sign Out</string>
+    <string name="titleText">NFC Prescription Tracker Application</string>
+     <string name="writeButtonText">Save to Tag</string>
+     <string name="exitButtonText">Main Menu</string>
+     <string name="quitButtonText">Quit</string>
+     <string name="emptyText"></string>
+     <string name="writePrescriptionButtonText">Write Prescription</string>
+     <string name="readPrescriptionButtonText">Prescription Details</string>
+
+      <string name="requestPresText">Prescription</string>
+
+      <string name="patientName">Patient Name</string>
+
+      <string name="patientEmail">Patient Email</string>
+
+      <string name="doctorName">Doctor Name</string>
+
+      <string name="perDay">Num to take / per day</string>
+      
+       <string name="pick_toDate">Date To</string>
+      
+       <string name="pick_fromDate">Date From</string>
+      
+       <string name="PrscriptionName">Prescription Name</string>
+      
+       <string name="ReadTag">Read Tag</string>
+       
+        <string name="cancel">Cancel</string>
+       
+        <string name="Login">Login</string>
+        <string name="speechText">Please touch your phone against the prescription to record medicine intake</string>
+        <string name="readPrescription">Read Prescription</string>
+        <string name="getPrescriptionDetails">Prescription List</string>
+        <string name="Instruction">Instructions</string>
+        <string name="MainText">Welcome to the NFC Prescription Tracker.\n\nTo Record a prescription, touch your phone against the prescription tag.\n\n To see prescription details and prescription intake, please login.
+            					</string>
+        <string name="Back">Back</string>
+        <string name="my_pres_layout_id">pres_layout</string>
+        <string name="Signout">Sign Out</string>
+        <string name="Revoke"></string>
+        <string name="TextColour">"#55BBEE"</string>
+</resources>
